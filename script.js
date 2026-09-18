@@ -1,5 +1,6 @@
 const button = document.getElementById("addEventButton");
+const form = document.getElementById("eventForm");
 
 button.addEventListener("click", function() {
-    alert("Bienvenue dans la création de ton premier événement 🎟️");
+    form.style.display = "flex";
 });
